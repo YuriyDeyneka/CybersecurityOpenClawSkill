@@ -1,0 +1,15 @@
+{
+  "_comment": "CyberSec Guardian default config. Override any value with env vars (see SKILL.md).",
+
+  "block_on_threat": true,
+  "log_level": "INFO",
+
+  "vt_timeout_seconds": 30,
+  "vt_max_wait_seconds": 120,
+
+  "max_prompt_length": 8000,
+
+  "redact_patterns_extra": [],
+
+  "allow_list_domains": []
+}
